@@ -289,7 +289,7 @@ end)
 
 TycoonTab:AddSwitch("Aimbot", function(state)
 getgenv().Aimbot = state
-end
+end)
 
 local Players = game:GetService("Players")
 local humanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
